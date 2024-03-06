@@ -11,7 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    python server.py    // error!
+                    // python server.py    // error!
                     sh './PES1UG21CS654-1'
                 }
             }
